@@ -1,0 +1,121 @@
+header {
+  background-image: linear-gradient(to left, #BC0072, #00B4C2); }
+
+#logo {
+  height: 80px; }
+
+.nav-link {
+  font-size: initial; }
+
+body {
+  height: 1000px; }
+
+main {
+  background-color: #00B4C2; }
+
+#container {
+  height: 600px; }
+
+#sectortitulo {
+  background-color: #BC0072;
+  height: 100px; }
+
+#tabla {
+  border: #BC0072 solid 5px;
+  border-radius: 4px;
+  background-color: #00b4c2; }
+
+.body {
+  background-color: white; }
+
+#fondo {
+  background-image: url("../imagenes/fondo1.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat; }
+
+#fondo2 {
+  background-image: url("../imagenes/fondo2.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center; }
+
+#fondo3 {
+  background-image: url("../imagenes/fondo4.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+#fondo4 {
+  background-image: url("../imagenes/fondo5.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+#data {
+  background-color: white;
+  border: 5px #BC0072 solid;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px; }
+
+#data i {
+  color: #00B4C2; }
+
+#actosp {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-content: space-around;
+  align-items: center; }
+
+#actospublicos {
+  background-color: #bc0072;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 4px; }
+
+#ofertas {
+  background-color: #bc0072;
+  padding: 10px; }
+
+#enunciado h2 {
+  transition: height 2s; }
+
+#enunciado h2:hover {
+  height: 200px;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center; }
+
+#footer {
+  height: 100px;
+  background-image: linear-gradient(to right, #BC0072, #00B4C2); }
+
+#footer li {
+  transform: rotate(20deg); }
+
+#icono {
+  font-size: x-large; }
+
+@media only screen and (min-width: 320px) {
+  #data {
+    height: 25%; }
+  #enunciado {
+    display: flex;
+    justify-content: center; } }
+
+@media only screen and (min-width: 768px) {
+  #data {
+    height: 50%; }
+  #containeralumnos {
+    height: 600px; } }
